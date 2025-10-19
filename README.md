@@ -161,14 +161,7 @@ GET /api/bcra/usd?serie=usd_of"
   "serie": "usd_of"
 }
 
-🛠️ Solución de problemas
-Problema	Causa	Solución
-“Unexpected token <, <doctype>...”	El frontend no llega al backend	Configura proxy o VITE_API_BASE
-Ambos endpoints BCRA devuelven el mismo valor	GetUsdAsync apunta siempre a /usd_of	Usa la versión corregida del BcraClient.cs
-Error 401 (Unauthorized)	Token BCRA inválido o vencido	Renueva tu JWT en la API de estadísticas del BCRA
-No carga ARS	Variable Bcra:Token vacía	Agrega el token en appsettings.json o entorno
 🧑‍💻 Autor
-
 Emiliano Abate
-Proyecto académico — ITES Santa Rosa, La Pampa 🇦🇷
+Proyecto académico — ITES Santa Rosa, La Pampa
 Materia: Programación Web / Fullstack
